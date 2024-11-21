@@ -1,0 +1,22 @@
+2024-11-21 11:00:05,576 - app_logger - INFO - Starting process
+2024-11-21 11:00:05,576 - app_logger - INFO - 	Reading population.csv
+2024-11-21 11:00:08,486 - app_logger - INFO - 	Transforming data
+2024-11-21 11:00:08,750 - app_logger - INFO - \Filtering and aggregating data
+2024-11-21 11:01:07,099 - app_logger - INFO - Starting process
+2024-11-21 11:01:07,100 - app_logger - INFO - 	Reading population.csv
+2024-11-21 11:01:10,002 - app_logger - INFO - 	Transforming data
+2024-11-21 11:01:10,254 - app_logger - INFO - 	Filtering and aggregating data
+2024-11-21 11:01:10,289 - app_logger - INFO - 	Exporting data
+2024-11-21 11:01:11,865 - app_logger - INFO - Process Finished
+2024-11-21 11:04:00,406 - app_logger - INFO - Starting process
+2024-11-21 11:04:00,406 - app_logger - INFO - 	Reading population.csv
+2024-11-21 11:04:03,344 - app_logger - INFO - 	Transforming data
+2024-11-21 11:04:03,606 - app_logger - INFO - 	Filtering and aggregating data
+2024-11-21 11:04:03,644 - app_logger - INFO - 	Exporting data
+2024-11-21 11:04:04,605 - app_logger - ERROR - Error: [PATH_ALREADY_EXISTS] Path file:/Users/davianbermudez/Documents/Tests/Test_Spark_1/result.parquet already exists. Set mode as "overwrite" to overwrite the existing path.
+2024-11-21 11:06:08,641 - app_logger - INFO - Starting process
+2024-11-21 11:06:08,641 - app_logger - INFO - 	Reading population.csv
+2024-11-21 11:06:11,545 - app_logger - INFO - 	Transforming data
+2024-11-21 11:06:11,833 - app_logger - INFO - 	Filtering and aggregating data
+2024-11-21 11:06:11,868 - app_logger - INFO - 	Exporting data
+2024-11-21 11:06:13,337 - app_logger - INFO - Process Finished

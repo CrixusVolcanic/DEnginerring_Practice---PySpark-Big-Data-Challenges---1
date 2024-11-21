@@ -1,4 +1,5 @@
 from pyspark.sql import SparkSession
+from pyspark.sql.functions import floor
 from libraries.utils import default_logger
 
 spark = SparkSession.builder.getOrCreate()
@@ -15,7 +16,7 @@ def main():
 
         default_logger.info("\tTransforming data")
         df = df.withColumn("Value", df.Value.cast("int"))
-        df = df.withColumn("Decade", df["Year"].substr(1,2))
+        df = df.withColumn("Decade", (floor(df["Year"]/10)*10))
 
         # Show the first 10 lines
         df.show(10)
@@ -27,6 +28,7 @@ def main():
 
         default_logger.info("\tExporting data")
         #Exporting Aggregate Data
+        df_result.show(10)
         df_result.write.parquet('result.parquet', mode="overwrite")
 
         default_logger.info("Process Finished")

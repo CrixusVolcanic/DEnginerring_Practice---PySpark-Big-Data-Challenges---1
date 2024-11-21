@@ -20,3 +20,9 @@
 2024-11-21 11:06:11,833 - app_logger - INFO - 	Filtering and aggregating data
 2024-11-21 11:06:11,868 - app_logger - INFO - 	Exporting data
 2024-11-21 11:06:13,337 - app_logger - INFO - Process Finished
+2024-11-21 11:17:07,855 - app_logger - INFO - Starting process
+2024-11-21 11:17:07,855 - app_logger - INFO - 	Reading population.csv
+2024-11-21 11:17:10,772 - app_logger - INFO - 	Transforming data
+2024-11-21 11:17:11,045 - app_logger - INFO - 	Filtering and aggregating data
+2024-11-21 11:17:11,077 - app_logger - INFO - 	Exporting data
+2024-11-21 11:17:11,844 - app_logger - ERROR - Error: 'NoneType' object has no attribute 'orderBy'
